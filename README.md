@@ -20,12 +20,12 @@ The dataset contains **16,411 records** with the following key features:
 * **Latency Constraints:** The model must provide predictions with a latency of less than **5 minutes**.
 * **Future Scalability:** Documented **AWS account setup prerequisites** for future cloud deployment.
 
-## AWS Deployment Plan
-As per the project guidelines, this project will be deployed on an **AWS EC2 (Free Tier)** instance.
-* **Server:** Ubuntu Server 22.04 LTS on a `t2.micro` instance.
-* **Setup:** A virtual card will be used for account registration to ensure secure billing management.
-* **Security:** Security Groups will be configured for SSH (Port 22) and Dashboard access (Port 8501).
-* **Goal:** The final model API or Streamlit dashboard will be accessible via the EC2 public IP.
+## Live Deployment Details
+The predictive model is successfully deployed and running on an AWS cloud environment.
+* **Instance Type:** AWS EC2 t3.micro (Free Tier Eligible)
+* **Operating System:** Ubuntu 24.04.3 LTS
+* **Public IPv4 Address:** `16.16.207.161`
+* **Security:** Access is restricted via RSA Key Pair and monitored with AWS Billing Alerts.
 
 ## Getting Started
 1. Clone the repository: `git clone https://github.com/Aleyna-606/IoT_AquaPredict_Project.git`
